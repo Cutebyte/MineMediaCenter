@@ -1,0 +1,28 @@
+Projekt programu MineMediaCenter
+
+Cel:
+  Projekt ma na celu stworzenie programu, który zastąpi jedną aplikacją rozszerzalną pluginami wiele różnych aplikacji użytkowych wykorzystywanych przez użytkowników Minecraft.
+  
+Założenia funkcji programu:
+  - Uruchamianie dowolnej wersji Minecraft
+  - Obsługa pluginów
+  - Rozbudowane GUI obsługujące tematy
+  - Edytor skinów*
+  - Instalacja modyfikacji/pobieranie*
+  - Rozszerzenia dla serwerów Minecraft
+  - Branding
+
+W późniejszych etapach przewiduję liczne aktualizacje. Przykładowo dodanie "sklepu" z pluginami. Np. z pluginami, bądź skinami. Całość darmowa. Ewentualnie jakieś brandowane wersje dla większych serwerowni za drobną opłatą. Muszę znaleźć odpowiednią licencję.
+Dorzucę też plugin mający na celu obsługę skinów. Prawdopodobnie będą to dwie wersje. Jedna z centralną bazą skinów umieszczoną na własnym serwerze. Inna umieszczona na serwerze zdefiniowanym przez klienta (czyt. serwerownię). 
+
+Interfejs pluginów:
+  Każdy plugin powinien posiadać nazwę, oraz być zgodnym z niniejszą definicją/interfejsem dla pluginów. Plugin będzie miał możliwość wyświetlania kontrolek na przygotowanej dla niego wcześniej zakładce.
+  Plugin może posiadać też własne okno ustawień. W zasadzie powinien je posiadać. Będzie możliwa dezaktywacja pluginów wybranych przez użytkownika. Zależnie od jego woli. Instalacja oraz deinstalacja. W pierwszych wersjach zarządzanie pluginami będzie ograniczało się tylko do ich instalacji i odinstalacji. Później może dodam możliwość aktywowania/dezaktywowania pluginów.
+  Na koniec wypuszczę szczegółowy tutorial jak napisać własny plugin do MMC. Prawdopodobnie udostępnię go na licencji GPL, żeby wszystkie inne projekty, które będą dziedziczyć z mojego projektu udostępniały także kod własnych usprawnień.
+
+Launcher MC kroki:
+- pobranie pliku wersji - przy każdym uruchomieniu (logowaniu v0)
+- pobranie plików gry - (o ile nie są pobrane)
+- pobranie wersji uruchamianej
+- uruchomienie gry
+(wersja legit później)

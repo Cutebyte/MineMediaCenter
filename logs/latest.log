@@ -1,0 +1,13 @@
+[14:12:43] [main/INFO]: Setting user: Hopskocz
+[14:12:43] [main/INFO]: (Session ID is token:1:${auth_uuid})
+[14:12:44] [Client thread/INFO]: LWJGL Version: 2.9.1
+[14:12:47] [Client thread/INFO]: Reloading ResourceManager: Default
+[14:12:48] [Sound Library Loader/INFO]: Sound engine started
+[14:12:48] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[14:12:49] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[14:12:50] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
+bwj: 
+	at bvm.a(SourceFile:267) ~[1.7.5.jar:?]
+	at bvm.b(SourceFile:87) ~[1.7.5.jar:?]
+	at bcx.run(SourceFile:205) [1.7.5.jar:?]
+[14:30:59] [Client thread/INFO]: Stopping!
