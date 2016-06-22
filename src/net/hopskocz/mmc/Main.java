@@ -22,7 +22,7 @@ import java.util.Iterator;
  * Created by hopskocz on 06.04.14.
  */
 public class Main {
-    private static String version = "0.0.4-testing";
+    private static String version = "0.1.0";
     private static MMCFrame frame;
     private static boolean done = false;
 

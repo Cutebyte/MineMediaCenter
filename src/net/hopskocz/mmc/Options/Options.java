@@ -120,6 +120,8 @@ public class Options {
         scrollPane.getViewport().setOpaque(false);
         scrollPane.setOpaque(false);
         scrollPane.setBorder(new EmptyBorder(0,0,0,0));
+        scrollPane.setWheelScrollingEnabled(true);
+        scrollPane.getVerticalScrollBar().setUnitIncrement(16);
 
         NicePanel center = new NicePanel();
         center.setLayout(new BoxLayout(center, BoxLayout.Y_AXIS));

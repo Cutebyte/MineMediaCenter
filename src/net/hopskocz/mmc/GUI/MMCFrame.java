@@ -140,7 +140,7 @@ public class MMCFrame extends JFrame implements ActionListener {
         rightPanel.setBackground(new Color(255, 255, 255, 0)); // transparent
 
         //JLabel label = new JLabel("Debug version - only for testing purposes (GUI test)"); // TEST
-        JLabel label = new JLabel("MineMediaCenter - wersja testowa | Pozdrowienia z Hopskoczowa"); // TEST
+        JLabel label = new JLabel("MineMediaCenter | Pozdrowienia od Kapciuszka"); // TEST
         leftPanel.add(label);
 
         //buttons

@@ -60,6 +60,7 @@ public class PluginLoader {
 
         //list plugins
         File folder = new File(Options.getGamePath() + "/Plugins/");
+        Logger.info("[PluginLoader]: Searching for plugins in: "+folder.getAbsolutePath());
         File[] listOfFiles = folder.listFiles();
         if (listOfFiles != null) {
             for (int i = 0; i < listOfFiles.length; i++) {
