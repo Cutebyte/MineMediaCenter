@@ -308,7 +308,7 @@ public class Launcher implements Runnable {
         }
         try {
             pr.waitFor();
-            FileManager.deleteDir(new File(path + "/versions/" + version + "/natives/"));
+            //FileManager.deleteDir(new File(path + "/versions/" + version + "/natives/"));
         } catch( Exception e ) {
             // TODO Auto-generated catch block
             e.printStackTrace();

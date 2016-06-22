@@ -143,7 +143,7 @@ public class Parser {
             String tempStr = jobject.get("name").getAsString();
 
             if (tempStr.contains("nightly")) {
-                continue;
+                //continue;
             }
             // System.out.println( tempStr );
 

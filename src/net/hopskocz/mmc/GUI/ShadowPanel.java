@@ -21,24 +21,26 @@ public class ShadowPanel extends JPanel {
 
         image = new ImageIcon(this.getClass().getResource(imagePath+"logo.png")).getImage();
 
+        /*
         try {
-            url = new URL("http://polandcraft.eu/status/polandcraft.png");
+            //url = new URL("http://polandcraft.eu/status/polandcraft.png");
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }
         try {
-            status = ImageIO.read(url);
+            //status = ImageIO.read(url);
         } catch (IOException e) {
             e.printStackTrace();
-            status = new ImageIcon(this.getClass().getResource("/net/hopskocz/mmc/res/status.png")).getImage();
+            //status = new ImageIcon(this.getClass().getResource("/net/hopskocz/mmc/res/status.png")).getImage();
         }
+        */
     }
 
     public void paintComponent(Graphics g) {
         Graphics2D g2d = (Graphics2D) g;
 
         g.drawImage(image, 0, 0, image.getWidth(null), image.getHeight(null), this);
-        g.drawImage(status, 0, getHeight()-status.getHeight(null), status.getWidth(null), status.getHeight(null), this);
+        //g.drawImage(status, 0, getHeight()-status.getHeight(null), status.getWidth(null), status.getHeight(null), this);
 
         Color color1 = new Color(0,0,0,80);
         Color color2 = new Color(0,0,0,0);
@@ -55,11 +57,13 @@ public class ShadowPanel extends JPanel {
     }
 
     public void reload() {
+        /*
         try {
             status = ImageIO.read(url);
         } catch (IOException e) {
             e.printStackTrace();
         }
+        */
         repaint();
     }
 }
